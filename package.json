@@ -1,0 +1,33 @@
+{
+  "name": "@psu-online-education/interstitial",
+  "version": "1.0.0",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "description": "The interstitial page for managed challenges",
+  "homepage": "https://github.com/psu-online-education/world-campus-interstitial#readme",
+  "bugs": {
+    "url": "https://github.com/psu-online-education/world-campus-interstitial/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psu-online-education/world-campus-interstitial.git"
+  },
+  "license": "ISC",
+  "author": "Penn State Online Education Application Development",
+  "devDependencies": {
+    "@psu-online-education/background-container": "^4.0.0",
+    "@psu-online-education/base": "^3.0.1",
+    "@psu-online-education/callout": "^2.0.1",
+    "@psu-online-education/footer": "^1.0.2",
+    "@psu-online-education/header": "^2.1.1",
+    "@psu-online-education/heading": "^3.1.1",
+    "@psu-online-education/list": "^1.0.1",
+    "@psu-online-education/page-title": "^1.0.3",
+    "@psu-online-education/page-title-banner-plain": "^1.0.1",
+    "@psu-online-education/physical-address": "^1.0.1",
+    "@psu-online-education/social-icon": "^2.0.2",
+    "@psu-online-education/social-icons": "^2.0.1",
+    "@psu-online-education/sprite": "^2.1.4"
+  }
+}

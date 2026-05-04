@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Please Verify Your Browser - Penn State World Campus</title>
+    <link href="https://use.typekit.net/llt5zza.css" rel="stylesheet">
+    <link rel="stylesheet" href="::ASSET_PREFIX::/interstitial.css">
+    <script>
+      let b = (x, y, z) => new Response((new Blob([Uint8Array.from(atob(x), c => c.charCodeAt(0))]).stream()).pipeThrough(new DecompressionStream("gzip"))).text().then(d => {document.querySelector(z).insertAdjacentHTML(y, d)});
+      b('::BEFORE_BEGIN_MAIN::', 'beforebegin', '#main');
+      b('::AFTER_BEGIN_MAIN::', 'afterbegin', '#main');
+      b('::BEFORE_END_MAIN::', 'beforeend', '#main');
+      b('::AFTER_END_MAIN::', 'afterend', '#main').then(() => {
+        document.querySelector('.copyright-year').textContent = String(new Date().getFullYear())
+      });
+    </script>
+  </head>
+  <body>
+    <main id="main">
+      <div class="no-wc-styles">::CAPTCHA_BOX::</div>
+    </main>
+  </body>
+</html>

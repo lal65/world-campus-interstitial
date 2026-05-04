@@ -1,0 +1,6 @@
+build/
+.github/
+src/
+.gitignore
+.npmignore
+build.sh
